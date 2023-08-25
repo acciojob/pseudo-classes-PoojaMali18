@@ -1,1 +1,52 @@
-/*  your css code here. If applicable */
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.article {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.article p:first-child {
+    background-color: black;
+    color: white;
+}
+
+.article p:nth-child(2) {
+    color: initial;
+}
+
+.article p:last-child {
+    color: red;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+}
+
+.list li:nth-child(odd) {
+    background-color: white;
+}
+
+.list li:first-child,
+.list li:last-child {
+    font-size: 22px;
+}
+
+.list li:nth-last-child(3) {
+    background-color: pink;
+}
